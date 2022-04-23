@@ -1,0 +1,6 @@
+SET TRANSACTION 
+ISOLATION LEVEL 
+READ COMMITTED;
+
+select * from YUN.KhuyenMai;
+commit;

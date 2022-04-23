@@ -1,0 +1,12 @@
+SET TRANSACTION 
+ISOLATION LEVEL SERIALIZABLE;
+
+
+begin
+YUN.PARTNER_UPDATE_PRODUCTS_DETAILS('SP01',N'Qu?n Jean', 'DT01', 'LH01', 200, 900);
+end;
+
+commit;
+
+
+rollback;

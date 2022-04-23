@@ -1,0 +1,5 @@
+SET TRANSACTION 
+ISOLATION LEVEL 
+READ COMMITTED;
+
+select * from YUN.sanpham_chinhanh;

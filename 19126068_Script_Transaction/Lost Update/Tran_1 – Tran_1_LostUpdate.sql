@@ -1,0 +1,14 @@
+begin
+YUN.PARTNER_PRINT_PRODUCTS_DETAILS('SP01');
+end;
+
+begin
+YUN.PARTNER_UPDATE_PRODUCTS_DETAILS('SP01',N'Qu?n Jean', 'DT01', 'LH01', 200, 430);
+end;
+
+begin
+YUN.PARTNER_ADD_PRODUCT('SP15',N'Qu?n MLB', 'DT01', 'LH01', 200, 1000);
+end;
+
+commit;
+rollback;
